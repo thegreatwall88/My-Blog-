@@ -1,0 +1,30 @@
+/* Dark Mode */
+  .dark {
+    background-color:#000000;
+    color: #ffffff;
+    
+  }
+  .dark .box{
+    border: 1px solid rgb(255, 255, 255) ;
+  }
+  .dark head{
+    background-color:#000000;
+    color: #ffffff;
+  }
+  .dark .footer{
+    background-color:#000000;
+    color: #ffffff;
+  }
+  /* Light Mode */
+  .light {
+    background-color: #ffffff;
+    color: black;
+  }
+  .light .box{
+    border: 1px solid rgb(11, 11, 11) ;
+  }
+
+  img {
+    cursor: pointer;
+ 
+  }
