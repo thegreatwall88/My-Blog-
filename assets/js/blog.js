@@ -15,7 +15,7 @@ submitButton.addEventListener('click', function (event) {
   };
   blogs.push(blog);
   localStorage.setItem('blog', JSON.stringify(blogs));
-  window.location.href = 'index.html';
+  window.location.href = 'blog.html';
 });
 
 
