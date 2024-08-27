@@ -6,32 +6,59 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>My First Blog</title>
   <link rel="stylesheet" href="./assets/css/reset.css" />
-  <link rel="stylesheet" href="./assets/css/form.css" />
+  <link rel="stylesheet" href="./assets/css/blog.css" />
   <link rel="stylesheet" href="./assets/css/styles.css" />
 </head>
 
-<body class = "light">
+<body class="light">
 
   <header>
-    <h1>My First Blog</h1>
-    <nav>
-      <ul>
-
-        <li><a href="./blog.html" class="back">&laquo; Back</a></li>
-        <li><img src="./assets/images/light-mode-dark-light-512.webp" alt="Light Dark Mode" id="theme-switcher"></li>
-
-      </ul>
-    </nav>
+    <a href="blog.html" id="go-to-blog" class="button">Go to Blog</a>
+    <img src="./assets/images/light-mode-dark-light-512.webp" alt="Light Dark Mode" id="theme-switcher">
   </header>
-  <hr id ="hr" width="100%">
+  <hr width="100%">
   <hr>
   <hr>
 
   <main>
     <div class="container">
-          <script src="./assets/js/form.js"></script>
-    </div>
+      <div class="row">
+        <div class="column">
+          <div id="circle">
+            <div id="text">My First Blog</div>
+          </div>
+
+        </div>
+
+        <div class="column">
+          <section>
+            <article>
+
+              <h2>What's on your mind?</h2>
+              <form>
+                <p>
+                  <label for="username">Username:</label>
+                  <input class="text-input" id="username" type="text" placeholder="First Last" />
+                </p>
+                <p>
+                  <label for="title">Title:</label>
+                  <input class="text-input" id="title" type="text" placeholder="Owner" />
+                </p>
+                <p>
+                  <label for="content">Content:</label>
+                  <textarea class="text-input" id="content" placeholder="Great article!"></textarea>
+                </p>
+                <p>
+                  <button id="submit" ">Submit</button>
+                </p>
+              </form>
+            </article>
+          </section>
+          
+        </div>
+      </div>
   </main>
+  
   <hr>
   <hr>
   <hr>
@@ -39,6 +66,7 @@
     <span>Blog by Khoi Mai</span>
   </footer>
   <script src="./assets/js/logic.js"></script>
+  <script src="./assets/js/blog.js"></script>
 </body>
 
 </html>
