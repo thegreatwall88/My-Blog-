@@ -169,7 +169,27 @@ body {
     background-color: #ffffff;
     color: #000000;
   }
-
+  .button {
+    padding: 0.5% 1%;
+    font-size: 1em; 
+    color: #fff;
+    background-color: #13293d;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5em; 
+    margin-right: .5em;
+  }
+  
+  .button:hover {
+    background-color: #0e1a29;
+  }
+  
+  .button:focus {
+    box-shadow: 0 0 5px #13293d;
+  }
   @media screen and (max-width: 768px) {
     header {
       flex-direction: column;
